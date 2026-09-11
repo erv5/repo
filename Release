@@ -1,13 +1,13 @@
-Origin: soardev
+Origin: soardev repo
 Label: soardev repo
 Suite: stable
 Version: 1.0
 Codename: soardev
-Date: Fri, 11 Sep 2026 06:12:27 UTC
+Date: Fri, 11 Sep 2026 07:07:06 UTC
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: soardev.cc — Shadow fork (beta) by erv5, based on jjolano/shadow
+Description: soardev repo — Shadow fork (beta) by erv5, based on jjolano/shadow
 MD5Sum:
- 559e4584ff82caea220898b2fa8bd778             4209 Packages
- 2b1c8e01cad5fec77d7b39b1f475df36             1333 Packages.gz
- 967d27cfe77480faee010b7b2fb55df2             1566 Packages.bz2
+ 48ce77dbdb36d9675dc56b09d88611bf             1865 Packages
+ a9afc28f19c76169c4ee1f6e3998c0f7              719 Packages.gz
+ 5e9c9e47c8e95b99935c3f47d0d222a7              859 Packages.bz2
