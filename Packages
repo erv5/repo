@@ -1,0 +1,58 @@
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 27228
+MD5sum: 8df7a400e1d3dec2ab6781c132ef17a4
+SHA1: fe13e5eb1709652c1f81bdcfb368ccfa8788b6fe
+SHA256: b2ae4bc3e3806627c751aa5d717a220d0efd01b5044ee92a978dbac0937bc2c6
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 8946
+MD5sum: 08d15eae2e6db01d1699a9b60e1912a9
+SHA1: e417ddfc097276b94f0ba6d6495e0051da0cbcca
+SHA256: 1cb1648e3ed41588c49622670e813554183a0786619d9c0e8db81c555d1e8c12
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: me.jjolano.shadow
+Version: 4.0.0
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 2120
+Pre-Depends: dpkg
+Depends: firmware (>= 15.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 3.0.0)
+Recommends: mobilesubstrate, preferenceloader
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_4.0.0_iphoneos-arm64.deb
+Size: 279744
+MD5sum: 9f5182c3b8f5fe456f5abb6f7585b43c
+SHA1: 9024aab49b86cd5e938daa149d26d9d029cbd9a3
+SHA256: ae1b7a4ded0ee49121b903e2d0fc5666b3b87574c3f75dbd5dc5fa3b9e80cc3d
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
