@@ -1,3 +1,76 @@
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26884
+MD5sum: 1874e0da98f00417adab6dee7134f77c
+SHA1: 78b40438355e042de1ef082fcd9add718f7e1ec4
+SHA256: 5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 420
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18154
+MD5sum: f0910991262882d4ffc0b60a5dcc191b
+SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
+SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: me.jjolano.fmwk.hookkit
+Version: 3.0.4-1
+Architecture: iphoneos-arm64e
+Maintainer: jjolano <jjolano@me.com>
+Installed-Size: 1004
+Depends: firmware (>= 15.0)
+Conflicts: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
+Replaces: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
+Filename: debs/me.jjolano.fmwk.hookkit_3.0.4-1_iphoneos-arm64e.deb
+Size: 131486
+MD5sum: a62d9a7af9ffc00209dae44e8e71881a
+SHA1: 406013ef5479ee4ef2ad6123b64f42e2b282efd4
+SHA256: b5ce02e9aa7a9b7ef63e3886af6872483131ce763901dd8a5272cf17632d8e33
+Section: Development
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Author: jjolano <jjolano@me.com>
+Name: HookKit Framework
+
+Package: me.jjolano.fmwk.hookkit
+Version: 3.0.4-1
+Architecture: iphoneos-arm64
+Maintainer: jjolano <jjolano@me.com>
+Installed-Size: 1004
+Depends: firmware (>= 15.0)
+Conflicts: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
+Replaces: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
+Filename: debs/me.jjolano.fmwk.hookkit_3.0.4-1_iphoneos-arm64.deb
+Size: 132548
+MD5sum: ae5e0a173928fdca58ae04e039fe06ba
+SHA1: 1f53e04db68e507c590ba3d5018182f54732d4b6
+SHA256: c9562272d9c13403be879e64fbbc98d07d3bb10df822e97e7e54ad3afcc8b569
+Section: Development
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Author: jjolano <jjolano@me.com>
+Name: HookKit Framework
+
 Package: me.jjolano.shadow
 Version: 4.0.0~beta.1
 Architecture: iphoneos-arm64
