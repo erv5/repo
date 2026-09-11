@@ -1,0 +1,8 @@
+Origin: soardev
+Label: soardev repo
+Suite: stable
+Version: 1.0
+Codename: soardev
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: soardev.cc — Shadow fork and related jailbreak packages
