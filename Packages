@@ -84,10 +84,11 @@ Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Replaces: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Provides: me.jjolano.shadow.beta
 Filename: debs/me.jjolano.shadow_4.0.0~beta.1_iphoneos-arm64.deb
-Size: 278574
-MD5sum: 2569b4fc214f5f3c6fa8c8c11019d409
-SHA1: cd51b28d0bf65ed8acf46902591a641b3e8649cd
-SHA256: 087140d6d10e7fda978431e30288fcc2b908238d7c22a6de50f9ab1ee788a12f
+Size: 281640
+MD5sum: 3e3a4b912fcb4c954c8268f355451654
+SHA1: 504cea332a15fea70ea1ca99fe38fa80783b3d9e
+SHA256: 5d0e04bb7b1f0caf2dd9c7cf86f247ac794daf69778f941ff00881580ca02940
+Depiction: https://repo.soardev.cc/depictions/me.jjolano.shadow/
 Section: System
 Description: A modern jailbreak detection bypass. (Beta)
  Fork maintained by erv5 — per-app hook toggles, detector fixes.
@@ -112,6 +113,7 @@ Size: 277018
 MD5sum: 8f6617461acd40fe6146415a35705f80
 SHA1: a2680b3e021617e5376265ab35cf9947c5fe1563
 SHA256: 69a371fcfc9f28f45803ba27d4bc10cd61cefb3ee6c19c738d2b2fa13ddeba3a
+Depiction: https://repo.soardev.cc/depictions/me.jjolano.shadow/
 Section: System
 Description: A modern jailbreak detection bypass for RootHide. (Beta)
  Fork maintained by erv5 — per-app hook toggles, detector fixes.

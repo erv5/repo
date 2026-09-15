@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shadow — soardev repo</title>
+	<meta name="description" content="Shadow 4.0.0~beta.1 — erv5 fork of jjolano/shadow. Modern jailbreak detection bypass for rootless (Dopamine) and RootHide.">
+	<style>
+		:root { color-scheme: dark; }
+		* { box-sizing: border-box; }
+		body {
+			margin: 0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+			background: #0b0d10; color: #e7eaee; padding: 20px; line-height: 1.55;
+		}
+		.wrap { max-width: 640px; margin: 0 auto; }
+		header {
+			background: #14171c; border: 1px solid #23272e; border-radius: 16px;
+			padding: 24px; text-align: center; margin-bottom: 16px;
+		}
+		h1 { font-size: 1.4rem; margin: 0 0 4px; letter-spacing: .2px; }
+		.fork { color: #7cc7ff; font-size: .9rem; margin-bottom: 6px; }
+		.ver { display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .8rem;
+			background: #0b0d10; border: 1px solid #23272e; border-radius: 8px; padding: 4px 10px; color: #9aa3ad; }
+		section {
+			background: #14171c; border: 1px solid #23272e; border-radius: 14px;
+			padding: 16px 18px; margin-bottom: 12px;
+		}
+		h2 { font-size: .82rem; text-transform: uppercase; letter-spacing: .8px; color: #9aa3ad; margin: 0 0 8px; }
+		p { margin: 0 0 8px; font-size: .92rem; }
+		p:last-child { margin-bottom: 0; }
+		ul { margin: 0; padding-left: 20px; font-size: .92rem; }
+		li { margin-bottom: 4px; }
+		a { color: #7cc7ff; text-decoration: none; }
+		code { font-family: ui-monospace, Menlo, monospace; font-size: .85em; color: #c9d1d9; }
+		.note { color: #9aa3ad; font-size: .85rem; }
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<h1>Shadow</h1>
+			<div class="fork">erv5 fork of <a href="https://github.com/jjolano/shadow">jjolano/shadow</a></div>
+			<span class="ver">4.0.0~beta.1</span>
+		</header>
+
+		<section>
+			<h2>About</h2>
+			<p>A modern jailbreak detection bypass. Shadow hides the jailbreak from apps on a per-app basis, with hook profiles you can tune in <strong>Settings → Shadow</strong>.</p>
+			<p class="note">This build is maintained by <strong>erv5</strong> as a fork; upstream credit and original work by <a href="https://github.com/jjolano">jjolano</a>.</p>
+		</section>
+
+		<section>
+			<h2>Compatibility</h2>
+			<ul>
+				<li><strong>Rootless</strong> (Dopamine, palera1n rootless): <code>iphoneos-arm64</code></li>
+				<li><strong>RootHide</strong> (Serotonin / RootHide bootstrap): <code>iphoneos-arm64e</code></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Dependencies</h2>
+			<p>Requires <strong>HookKit</strong>, <strong>AltList</strong>, and <strong>libSandy</strong> — all declared as dependencies and hosted on this repo, so they install automatically with Shadow. No extra sources needed.</p>
+		</section>
+
+		<section>
+			<h2>Source</h2>
+			<p>Fork: <a href="https://github.com/erv5/shadow">github.com/erv5/shadow</a><br>
+			Upstream: <a href="https://github.com/jjolano/shadow">github.com/jjolano/shadow</a></p>
+		</section>
+	</div>
+</body>
+</html>
