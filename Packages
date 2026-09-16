@@ -120,20 +120,3 @@ Description: A modern jailbreak detection bypass for RootHide. (Beta)
  Based on jjolano/shadow 4.0.0.
 Author: jjolano
 Name: Shadow
-
-Package: com.soardev.efmnullreleasefix
-Name: EFM Null Release Fix
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Installed-Size: 136
-Pre-Depends: dpkg
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.soardev.efmnullreleasefix_1.0.0_iphoneos-arm64.deb
-Size: 2664
-MD5sum: 06ccb13bed44eea1304228f22a02d632
-SHA1: 6507f3826713bfe64ab8f5645094d5fecfa49a07
-SHA256: a7d842c4d1735a70e4104aa088bec86a612aa211693f6f68afedbe71a7794f48
-Section: Tweaks
-Description: Prevents crashes from CFRelease(NULL) on iOS 16.2 (fixes EmojiPort/emoji-font crashes with the Japanese flick keyboard). Tested on iOS 16.2 only.
-Maintainer: erv5
-Author: erv5
