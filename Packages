@@ -84,10 +84,10 @@ Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Replaces: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Provides: me.jjolano.shadow.beta
 Filename: debs/me.jjolano.shadow_4.0.0~beta.1_iphoneos-arm64.deb
-Size: 281648
-MD5sum: 0be3766215837734d351bb58f28123c7
-SHA1: 6fcf0f785a9cff5c0d6d579410862169c025fa67
-SHA256: 52cd0f91fdcdfb726667569fec16c47e661333dfc615d3fdea315745a4c6a42a
+Size: 284092
+MD5sum: 0f035f62ebf9edc71e2fc81f1c1fd0c8
+SHA1: 04024119324aab31953adbba2a7ca2a3664447a7
+SHA256: c44483e55780e762424cf268dbe8700b60859de952e82c80c1f3d7b900c2d0ec
 Depiction: https://repo.soardev.cc/depictions/me.jjolano.shadow/
 Section: System
 Description: A modern jailbreak detection bypass. (Beta)
