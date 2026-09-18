@@ -75,7 +75,7 @@ Package: me.jjolano.shadow
 Version: 4.0.0~beta.1
 Architecture: iphoneos-arm64
 Maintainer: erv5
-Installed-Size: 290068
+Installed-Size: 289400
 Pre-Depends: dpkg
 Depends: firmware (>= 15.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 3.0.0)
 Recommends: mobilesubstrate, preferenceloader
@@ -84,10 +84,10 @@ Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Replaces: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Provides: me.jjolano.shadow.beta
 Filename: debs/me.jjolano.shadow_4.0.0~beta.1_iphoneos-arm64.deb
-Size: 290068
-MD5sum: 24e5cd8a3327eefe582b396fc88e9d63
-SHA1: c8e2aabf71b42f247fbf8ca23d53b51ebd98d9ae
-SHA256: 66bdcb43bc7101345e85c15bed58681c6b98044299cf9cf88273309b1de295f8
+Size: 289400
+MD5sum: ccdcdf5ca90fee10edc1c53fd013ddb5
+SHA1: 9ff8b3b6950544c10a31f867777b02025a662048
+SHA256: 7e24433e9b3ee90ec8fcb6f91f220c7b85faebf73aea4cfe957595c30b09e440
 Depiction: https://repo.soardev.cc/depictions/me.jjolano.shadow/
 Section: System
 Description: A modern jailbreak detection bypass. (Beta)
